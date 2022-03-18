@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 1.2rem;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#header {
+  padding-top: 10px;
+}
+
+#header .navbar .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header img {
+  padding: 10px;
+}
+
+#header .navbar .menu li {
+  margin-left: 1rem;
+  list-style: none;
+  padding: 10px;
+}
+
+
+#header .navbar .menu li a:hover {
+  color: #00ff2a;
+}
+
+.content {
+  padding-top: 40px;
+  height: 100px;
+  height: auto;
+}
+
+.content table td img {
+  width: 200px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+fieldset {
+  width: 600px;
+  height: 300px;
+  padding-top:75px;
+  background: rgba(109, 114, 110, 0.027);
+  color: #fff;
+}
+
+input {
+  border: none;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+
+}
+
+select {
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  background: #00ff2a;
+  border: none;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background: rgb(22, 12, 39);
+  color: #00ff2a;
+  transition: 0.3s;
+}
+
+i {
+  background: rgb(46, 45, 45);
+  border-radius: 50%;
+  color: #00ff2a;
+}
+
